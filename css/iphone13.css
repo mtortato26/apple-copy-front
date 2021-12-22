@@ -210,11 +210,6 @@ input[type=button]{
 
 }
 
-.div-iphone-pol-txt{
-
-
-}
-
 .div-iphone-pol-txt p{
     font-weight: 500;
 
@@ -475,6 +470,92 @@ input[type=button]{
     background-color: #fbfbfd;
 
 }
+
+.div-macro-galery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-macro-galery-container{
+    width: 1360px;
+    padding-top: 150px;
+
+}
+
+.div-macro-img-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.div-macro-img-one img{
+    width: 100%;
+
+}
+
+.div-macro-txt-one{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.macro-txt-large{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.macro-txt-large h1{
+    font-size: 130px;
+    font-weight: 500;
+    padding-top: 70px;
+
+}
+
+.macro-txt-small{
+    width: 45%;
+    height: 100%;
+
+}
+
+.macro-txt-small-title{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    padding: 70px 0 0 0;
+
+}
+
+.macro-txt-small-title h1{
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.macro-txt-small-paragaph{
+    width: 100%;
+    height: 60%;
+
+}
+
+.macro-txt-small-paragaph p{
+    width: 430px;
+    font-size: 20px;
+    color: #6e6e73;
+    font-weight: 500;
+
+}
+
+
 
 
 
