@@ -85,13 +85,6 @@ input[type=button]{
 
 }
 
-.corp{
-    width: 100%;
-    height: 2000px;
-    background-color: rgb(255, 115, 0);
-
-}
-
 .div-apre-iphone{
     width: 100%;
     height: 950px;
@@ -310,6 +303,11 @@ input[type=button]{
 
 }
 
+.dot:hover{
+    border: 2px solid rgb(27, 133, 240);
+
+}
+
 .div-galery-iphone-txt-space{
     width: 100%;
     height: 50%;
@@ -342,19 +340,6 @@ input[type=button]{
 
 }
 
-@media screen and (max-width: 1920px){
-    .div-galery-iphone-ba-img-space{
-        justify-content: left;
-
-    }       
-
-    .div-galery-iphone-ba-img-space img{
-        transform: translate(+20%,+5%);
-    
-    }
-
-}
-
 .div-galery-iphone-ba-img-space img{
     transform: translate(0,);
 
@@ -362,7 +347,7 @@ input[type=button]{
 
 .div-galery-iphone-ba-img-space2{
     width: 100%;
-    height: 95%;
+    height: 90%;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -400,3 +385,123 @@ input[type=button]{
     font-weight: 500;
 
 }
+
+.div-img-txt{
+    background-color: #fbfbfd;
+
+}
+
+.div-iphone-ipx{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-iphone-ipx-container{
+    width: 1000px;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.div-iphone-ipx-txt{
+    text-align: center;
+    padding: 30px 0 30px 0;
+
+}
+
+.div-iphone-ipx-txt p{
+    font-weight: 500;
+    font-size: 19px;
+
+}
+
+.div-iphone-ipx-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.div-iphone-nano-1-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 100px 0;
+
+}
+
+.div-iphone-nano-container{
+    width: 1000px;
+    height: 100%;
+
+}
+
+.div-iphone-nano-txt p{
+    font-size: 80px;
+    padding-top: 85px;
+    font-weight: 500;
+    color: #86868b;
+
+}
+
+.div-iphone-nano-txt a{
+    text-decoration: none;
+    color: #1d1d1f;
+
+}
+
+.div-iphone-nano-2-img{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 150px;
+
+}
+
+.div-iphone-nano-img-container{
+    width: 1700px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.div-iphone-nano-geral{
+    background-color: #fbfbfd;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1920px){
+    .div-galery-iphone-ba-img-space{
+        justify-content: left;
+
+    }       
+
+    .div-galery-iphone-ba-img-space img{
+        transform: translate(+20%,+5%);
+    
+    }
+
+    .div-iphone-nano-2-img img{
+        padding: 0 0 0 50px;
+
+    }
+
+}
+
+/*@media screen and (max-width: 1930px){
+    .div-iphone-nano-2-img img{
+        padding: 0 0 0 170px;
+
+    }
+
+}*/
