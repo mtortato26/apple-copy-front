@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+
+}
+
+.div-watch-title{
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.watch-title{
+    width: 1000px;
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.watch-title h1{
+    color: white;
+    font-size: 20px;
+
+}
+
+.div-title-op{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+
+.div-title-op p{
+    padding: 0 10px 0 10px;
+    font-size: 13px;
+    color: #e4e4e4;
+
+}
+
+input[type=button]{
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 5px 17px 5px 17px ;
+    border-radius: 20px;
+    margin: 0 0px 0 10px;
+    cursor: pointer;
+
+
+}
